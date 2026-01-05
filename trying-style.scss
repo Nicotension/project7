@@ -1,0 +1,185 @@
+@media (width >= 480px) {
+  .belt {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .belt-group {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .b1, .b2, .b3 {
+    max-width: 280px;
+    margin: 0 1rem 1rem 1rem;
+  }
+
+  .z, .i {
+    font-size: 15px;
+  }
+}
+
+/* Small laptops (768px and up) */
+@media (width >= 768px) {
+  .belt {
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  .b1, .b2, .b3 {
+    max-width: 320px;
+    margin: 0 1rem;
+  }
+
+  .z, .i {
+    font-size: 16px;
+  }
+}
+
+/* Large laptops (1024px and up) */
+@media (width >= 1024px) {
+  .belt {
+    background: #f8f8f8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .belt-group {
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+
+  .b1, .b2, .b3 {
+    max-width: 350px;
+  }
+
+  .z, .i {
+    font-size: 17px;
+  }
+}
+
+/* Desktops and larger (1280px and up) */
+@media (width >= 1280px) {
+  .belt {
+    padding: 0 4rem;
+  }
+
+  .belt-group {
+    gap: 3rem;
+  }
+
+  .b1, .b2, .b3 {
+    max-width: 400px;
+  }
+
+  .z, .i {
+    font-size: 18px;
+    padding: 8px 14px;
+  }
+}
+/* ##################################
+
+.accordion {
+  font-family: 'Inter', sans-serif;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  background: transparent; /* Ensures no background */
+  outline: none; /* Removes focus outline */
+  border: none; /* Explicitly removes border */
+}
+.accordion-header {
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #004bf1;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.accordion-header::after {
+  content: '+';
+  pointer-events: none; /* Lets clicks pass through to the button */
+  position: absolute;
+  left: 300px;  
+ }
+.accordion-header.active::after {
+  content: '–';
+}
+.accordion-content {
+  max-height: 0;
+  transition: max-height 0.6s ease;
+  overflow: hidden;
+  padding: 0 10px;
+  color: #004bf1;
+  background: transparent;
+  border: none;
+}
+.accordion-content.active {
+  padding: 10px; /* Full padding when expanded */
+  color: #004bf1;
+  background: transparent; /* Ensures expanded content is transparent */
+}
+.accordion-content-inner { 
+  padding: 10px 0; 
+  background: transparent; /* Inner content transparency */
+}
+ 
+
+      <div class="text-overlay">
+        <h1>
+          <span class="line-1">Gewerbe +</span><br>
+          <span class="line-2">Industrie</span>
+        </h1>
+      </div>
+
+      Kammer der ZiviltechnikerInnen (Ziviltechniker-Kammer) – Arch+Ing
+
+      <h6 class="company-name"> Spreitzer <span>+</span> Reisenleitner <br>
+                    Ziviltechnikergesellschaft &nbsp;GmbH</h6>
+
+                    <h5>Ansprechpartner Presse: Dipl.Ing. Konrad Reisenleitner</h5>
+<p>Homepage: www.spreitzer-zt.at <br>
+Mitglied bei: Kammer der ZiviltechnikerInnen (Ziviltechniker-Kammer) – Arch+Ing.</p>
+<br><br>
+
+ <div class="cardii">
+    <img src="image/pic9.jpg" class="cardii-img-top" alt="...">
+    <div class="cardii-body">
+      <p class="cardii-title"><strong>Wohnbau + Bildung</strong></p>
+    </div>
+  </div>
+
+ <div class="cardii" style="width: 18rem;">
+  <img src="image/pic8.jpg" class="cardii-img-top" width="" alt="...">
+  <div class="cardii-body">
+    <p class="cardii-title"><strong>Dachausbau + Revitalisierung</strong></p>
+    <p class="cardii-text">Some quick example text to build on the cardii title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+ <div class="cardii" style="width: 18rem;">
+  <img src="image/pic4.jpg" class="cardii-img-top" width="" alt="...">
+  <div class="cardii-body">
+    <p class="cardii-title"><strong>Gewerbe + Industrie</strong></p>
+    <p class="cardii-text">Some quick example text to build on the cardii title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+ <div class="cardii" style="width: 18rem;">
+  <img src="image/pic1.jpg" class="cardii-img-top" width="" alt="...">
+  <div class="cardii-body">
+    <p class="cardii-title"><strong>Wohnbau + Bildung</strong></p>
+    <p class="cardii-text">Some quick example text to build on the cardii title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+ <div class="cardii" style="width: 18rem;">
+  <img src="image/pic5.jpg" class="cardii-img-top" width="" alt="...">
+  <div class="cardii-body">
+    <p class="cardii-title"><strong>Dachausbau + Revitalisierung</strong></p>
+    <p class="cardii-text">Some quick example text to build on the cardii title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
