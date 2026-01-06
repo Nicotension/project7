@@ -1200,7 +1200,18 @@ body.menu-open {
     
   
 /* Medium devices (e.g., iPad landscape / small laptops ~769–1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .hero {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    margin: 15 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
    .belt {
         display: flex ; /* Always visible on desktop  */
         position: relative;
@@ -1254,6 +1265,8 @@ body.menu-open {
       padding: 0.375rem 0.625rem;
 
     }
+
+
 }
 
 
