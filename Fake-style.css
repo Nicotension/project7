@@ -1,3 +1,290 @@
+
+.footer-wrapper {
+    position: relative;
+    z-index: 1; /* to control content layering */
+  }
+.footer-lines-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  pointer-events: none;
+  z-index: -1; /* puts the lines behind all content */
+}
+.longleg-container{
+    margin-top: -2rem; /* Much smaller, safer value */
+    /* Keep your other margins */
+    margin-right: 1.35rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.35rem;
+}
+/* Main Container Adjustments */
+/* .mainsec {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap */
+    /* margin-bottom: 8rem;
+}  */ 
+
+.upper2 {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    font-size: 1.1rem;/*  Slightly smaller  */
+    line-height: 1.3;/*  Tighter spacing */ 
+    margin: 5px 0;/*  Reduced margin */
+    Line-height: 130%;
+    top: 5px;
+    right: 1rem;
+    flex: 1;
+}
+
+#nav{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 350;
+    color: rgba(0, 75, 241, 1); 
+}  
+
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 1%; /* Consistent padding */
+    /* margin-bottom: -5px; Reduced spacing */
+    /* padding-top: 10%; */
+    width: 100%;
+    gap: 2rem;
+}
+.leg-eaglet-wrapper {
+    display: flex;  
+    align-items: center; /* Change from flex-start to center */
+    gap: 0.5rem; /* Reduced from 1rem */
+    flex: 1;
+    min-width: 200px;
+    
+  }
+/* Logo Adjustments */
+.leg img {
+    width: 100px; /* Fixed width */
+    height: auto;
+    padding: 0; /* Remove all padding */
+     margin-left: 0;
+}
+.container {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    display: flex;
+    padding: 15px 5% 0; /* Consistent padding */
+    /* margin-top: -8%; Reduced spacing */
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.lower {
+    display: flex;
+    justify-content: space-between; /* Distribute .lsr and .lsr1 evenly */
+    padding: 15px 5% 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  #eaglet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 4.5rem;
+    left: -3.5rem;
+}
+
+#eaglet img {
+    width: 35px;
+    opacity: 0.55;
+    /* Remove all positioning */
+    position: static;
+    top: auto;
+    left: auto;
+    margin: 0;
+} 
+
+.lsr h6, .lsr p, .lsr1 p, .lsr2 p {
+    font-size: 1.1rem; /* Smaller text */
+    line-height: 1.3; /* Tighter spacing */
+    margin: 3px 0; /* Reduced margin */
+}
+
+#sp{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 350;
+    color: rgba(0, 75, 241, 1); 
+    line-height: 130%;
+    /* padding-left: -2%; */
+}
+
+.lsr {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    Line-height: 130%;
+    margin-top: 25px;  /* ⬆ move up */
+    left: 10px;
+    flex: 1;
+    padding-left: 0;
+    padding-bottom: 3px;
+}
+.label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 250;
+    font-size: 15px;
+  }
+
+  .lsr h6, .lsr p, .lsr1 p {
+    font-size: 0.9rem;
+    line-height: 1;
+    margin: 4px 0;
+  }
+ .links-container{
+  font-family: 'Inter', sans-serif;
+  font-weight: 50px;
+  font-size: 0.5rem;
+ }
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* ################################ */
+ 
+.logo-grid {
+    display: grid;
+    grid-template-columns: 120px 120px; /* Adjust size as needed */
+    grid-template-rows: 110px 110px;   /* Two rows */
+    gap: 5px;
+    position: relative;
+  }
+  
+  .logo-block {
+    background-color: rgba(0, 75, 241, 1); 
+    color: rgba(255, 255, 255, 1);
+    font-size: 189.84px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-grid .logo-block:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .logo-grid .logo-block:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .logo-grid .logo-block:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .eagle {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .eagle img {
+    width: 60px; 
+    height: auto;
+  }
+
+.company-section {
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+}
+
+.company-section h1 {
+  color:rgba(0, 75, 241, 1); 
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 24px;
+  Line-height: 130%     
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.policy-link {
+  color: rgba(0, 75, 241, 1); 
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 0.9rem;
+  padding: 5px 1;
+  Line-height: 120% 
+}
+
+.policy-link:hover {
+  text-decoration: underline;
+}
+
+/* .mailita{
+    text-decoration: underline;
+} */
+
+
+.content-display {
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 800px;
+  display: none;
+  background-color: #f9f9f9;
+}
+
+
+    
+    <section class="belt">
+        <div class="belt-group">
+            <div class="b1">
+              <img src="logos/adler.img.jpg" class="logo2">
+              </div>      
+          <div class="b2">
+            <h4 class="z">Zivilingenieur für Bauwesen (r.) + SV</h4>
+            <p class="beltwrite">
+             Dipl.Ing.<br />Hans Spreitzer
+            </p>
+          </div>
+      
+          <div class="b3">
+            <h4 class="i">Ingenieurkonsulent für Bauingenierwesen</h4>
+            <p class="beltwrite">
+              
+               Dipl.Ing.<br />Konrad Reisenleitner
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
 @media (min-width: 769px) and (max-width: 1023px) {
   .image_workers_container {
     padding: 20px;
@@ -1463,57 +1750,6 @@ margin-top: 3rem;
   }
 }
 
-.belt {
-  position: relative;
-  z-index: 5;
-  margin-top: -35rem;
-  padding-right: 25px;
-  padding-left: 10px;
-  margin-bottom: 15rem;
-}
-  
-  .belt-group {
-   display: flex;
-  justify-content: space-between;
-  margin-right: 2rem;
-  align-items: center;
-  gap: 0.5rem; /* space between items */
-  width: 100%;
-  flex-wrap: wrap; /* wraps on small screens */
-  }
-
-  .logo2, .b2, .b3 {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .logo2 {
-    max-width: 200px;
-    height: auto;
-    opacity: 0.55;
-    border-radius: 50%;
-  }
-  .z, .i {
-    white-space: nowrap;
-    font-family: 'Inter', sans-serif;
-    background-color: rgba(0, 75, 241, 1);
-    color: white;
-    padding: 2px 5px;
-  }
-.b2 h4,
-.b2 p,
-.b3 h4,
-.b3 p {
-  transition: text-underline-offset 0.25s ease;
-}
-
-.b2:hover h4,
-.b2:hover p,
-.b3:hover h4,
-.b3:hover p {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
 
   @media (width < 480px) {
       .hero {
@@ -1601,56 +1837,7 @@ margin-top: 3rem;
   }
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
-  .logo2 {
-    max-width: 5px;
-    height: auto;
-    opacity: 0.55;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-  }
-}
 
- 
-/* iPads and tablets (480px and up)################################################################################################ */
-@media (min-width: 481px) and (max-width: 768px) {
-
-  /* Main wrapper */
-  .hero {
-    width: 100%;
-    max-width: 100%;
-    padding: 12px;
-    margin: 15 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;     /* Centers content horizontally */
-        justify-content: center; /* Optional: centers content vertically if needed */
-    box-sizing: border-box;
-  }
-
-  /* Logo + text block */
-  .hero-b {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 100%;
-  }
-
-  /* Logo */
-  .hero-b .firmer {
-    width: 220px;          /* scales cleanly */
-    max-width: 100%;
-    height: auto;
-  }
-
-  /* Text */
-  .hero-b .ppage {
-    font-size: 2rem;
-    line-height: 1.2;
-    margin: 0;
-    max-width: 100%;
-    word-wrap: break-word;
-  }
 }
 /* ################################################################################ */
     .belt {
@@ -3544,3 +3731,489 @@ flex-direction: row;
 
 /* EMERGENCY FIX - ADD THIS AT THE VERY END OF YOUR CSS FILE */
 
+
+/* ###################################################################################################################################### */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .cardi-container {
+    /* max-width: 1400px; */
+    /* height: 50px; */
+    margin-top: 15px;
+    position: relative; 
+  }
+  .cardi {
+    width: 100%;
+    /* left: 50% !important; */
+    /* top: 25% !important; */
+  }
+  .cardi-img-top {
+  width: 550px;
+  height: 200px;
+  object-fit: cover;       /* Show FULL image */
+  margin-left: 5px;
+  }
+  .cardi.active{
+    margin-top: 35px;
+  }
+   .belt {
+        display: flex ; /* Always visible on desktop  */
+        position: relative;
+        flex-direction: row;
+         align-items: center;
+         text-align: center;
+        justify-content: center;
+        background: none;
+        box-shadow: none;
+        width: auto;
+        gap: 2rem;
+    }
+    .belt-group {
+        flex-direction: column;
+         align-items: center;
+         text-align: center;
+      }
+.b1{
+  padding-top: 10rem;
+}
+ .longleg-container{
+margin-top: -10rem;
+padding-left: 4.5rem;
+padding-right: 5rem;
+
+ }
+.lsr {
+  padding-left: 13rem !important;
+}
+}
+
+/* ############################################################*/
+.cardi-container {
+    width: 70vw !important; /* Force smaller width */
+    max-width: 800px !important;
+    height: 60vh !important;
+    min-height: 400px !important;
+    margin-top: 90px !important;
+    margin-left: auto !important;
+    margin-right: 50px !important; /* Push to right */
+    padding: 10px !important;
+  }
+  
+  .cardi {
+    width: 100% !important;
+    max-width: 850px !important;
+    transform: translate(-55%, -30%) !important;
+  }
+  
+  .cardi.active {
+    transform: translate(-55%, -30%) scale(1.02) !important;
+  }
+  
+  .cardi-img-top {
+  border-radius: 4px;
+  width: 70% !important;
+  height: 300px !important;   /* SAME height for all images */
+  object-fit: cover;          /* Crop to fill without distortion */
+  transform: translate(-55%, -30%) scale(1.02) !important;
+  }
+
+/* ################################################## */
+@media (min-width: 1024px) {
+
+  footer {
+    max-width: 100%;
+    padding: 0 3%;
+  }
+
+  .footer-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* Main footer section layout */
+  .mainsec {
+    gap: 1.5rem;
+    margin-bottom: 10rem;
+  }
+
+  .sec1 {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 0 3%;
+  }
+
+  /* Upper text (right side) */
+  .upper2 {
+    font-size: 1.1rem;
+    top: 110px;
+    right: 3rem;
+    max-width: 420px;
+  }
+
+  /* Logo */
+  .leg img {
+    width: 120px;
+    margin-top: 75px;
+    margin-left: -105px;
+  }
+
+  /* Eagle icon */
+  #eaglet img {
+    width: 40px;
+    top: 9rem;
+    left: 4rem;
+  }
+
+  /* LSR block (right-aligned text group) */
+  .lsr {
+    left: -30rem;
+    padding-left: 0;
+    margin-top: 80px;
+    max-width: 420px;
+  }
+
+  .lsr h6,
+  .lsr p,
+  .lsr1 p,
+  .lsr2 p {
+    font-size: 0.95rem;
+    line-height: 1.3;
+  }
+
+  /* Lower footer section */
+  .lower {
+    padding: 20px 5% 0;
+    gap: 3rem;
+  }
+
+  /* Company / policy links */
+  .company-section {
+    max-width: 900px;
+  }
+
+  .policy-link {
+    font-size: 0.9rem;
+  }
+
+  /* Logo grid */
+  .logo-grid {
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 130px 130px;
+    gap: 8px;
+  }
+
+  .logo-block {
+    font-size: 200px;
+  }
+
+  .eagle img {
+    width: 70px;
+  }
+
+}
+/* ############################################### */
+/* Mobile (small screens) */
+@media (max-width: 600px) {
+  .bd_23_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .bd_23_img {
+    height: 180px;
+  }
+  .longleg-container{
+    margin-top: -55rem;
+  }
+}
+/* ######################################################## */
+/* LAPTOP ONLY */
+@media (min-width: 1024px) and (max-width: 1365px) {
+ .image_workers_container {
+    padding: 15px;
+  }
+  
+.firmen-profil-container{
+  display: block;
+  min-width: 100px;
+  margin-left: 0.5px;
+  color: rgba(0, 75, 241, 1);
+  margin-top: -7rem;
+}
+.profil_writup {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: rgba(0, 75, 241, 1);                 
+    margin-top: 4rem; /* Tight vertical spacing */
+    margin-bottom: -0.1rem;
+    line-height: 1.5; /* Tighter line spacing */
+    
+}
+.image_workers_container img {
+display: block;
+margin-left: 1px;
+border-radius: 5px; 
+margin-top: 2rem; 
+}
+.firme_img{
+  width: 450px;
+  height: 250px;
+}
+.spacer{
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  display: inline-block;
+  line-height: 1.3; /* Tighter line spacing */
+  transform: translateY(0.1rem);
+  padding-left: 3rem;
+  margin-bottom: 0.5rem;
+}
+.upper2 {
+    font-size: 1.1rem;
+    top: 165px;
+    right: 3rem;
+    max-width: 420px;
+  }
+
+  /* Logo */
+  .leg img {
+    width: 120px;
+    margin-top: 75px;
+    margin-left: -90px;
+  }
+
+  /* Eagle icon */
+  #eaglet img {
+    width: 40px;
+    top: 12rem;
+    left: 4.5rem;
+  }
+
+  /* LSR block (right-aligned text group) */
+  .lsr {
+    left: -23rem;
+    padding-left: 0;
+    margin-top: 80px;
+    max-width: 420px;
+  }
+  .longleg-container{
+    padding-top: 3rem;
+  }
+}
+/* ################################# */
+ 
+  .belt-group {
+   display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+  align-items: center;
+  gap: 0.5rem; /* space between items */
+  width: 100%;
+  flex-wrap: wrap; /* wraps on small screens */
+   } 
+  
+  .logo2, .b2, .b3 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo2 {
+    max-width: 200px;
+    height: auto;
+    opacity: 0.55;
+    border-radius: 50%;
+  }
+  .z, .i {
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(0, 75, 241, 1);
+    color: white;
+    padding: 2px 5px;
+  }
+.b2 h4,
+.b2 p,
+.b3 h4,
+.b3 p {
+  transition: text-underline-offset 0.25s ease;
+}
+
+.b2:hover h4,
+.b2:hover p,
+.b3:hover h4,
+.b3:hover p {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+
+
+/* ####################################################### */
+
+/*Medium devices(e.g., iPad landscape/small laptops~769–1024px)*/
+@media (min-width: 769px) and (max-width: 1023px) {
+  .sec1 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .longleg-container {
+    margin: 2rem 1rem;
+  }
+
+  .leg-eaglet-wrapper {
+    position: static;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 9rem;
+  }
+
+.leg img {
+  margin-left: 10.5rem;
+  width: 90px;
+  }
+    .logo-grid {
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 80px 80px;
+  }
+
+  .logo-block {
+    font-size: 40px;
+  }
+
+  #eaglet img {
+    position: static;
+    margin-top: 3.5rem;
+    margin-left: -2rem;
+    width: 30px;
+    opacity: 0.6;
+  }
+
+  .lsr,
+  .upper2 {
+    position: static;
+    flex: 1 1 100%;
+    margin-top: 1rem;
+   
+    text-align: center;
+    font-size: 0.9rem;
+  }
+.lsr{
+   padding: 0.5rem 2rem; /* Adjust for larger screens */
+   text-align: center;
+}
+  .lsr h6, .upper2 h6 {
+    font-size: 1.1rem;
+  }
+
+  .lsr p, .upper2 p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  #sp, #nav {
+    font-size: 16px;
+  }
+}
+
+
+/* @media (min-width: 801px) and (max-width: 1023px)############################## */
+
+
+/* ################################## */
+@media (min-width: 425px) and (max-width: 767px) {
+  .cardi-container {
+    width: 90vw;
+    height: 35vh;
+    min-height: 250px;
+    margin-top: -10px;
+  }
+  
+  .cardi {
+    width: 95%;
+    max-width: 700px;
+    height: 350px;
+  }
+ .belt {
+        position: relative;
+        display: flex ; /* Always visible on desktop  */
+        flex-direction: row;
+         align-items: center;
+         text-align: center;
+        justify-content: center;
+        background: none;
+        box-shadow: none;
+        width: auto;
+        gap: 2rem;
+    margin-top: 3rem;
+        /*###################################   👈 THIS moves it up */
+    margin-bottom: -75rem;
+    z-index: 10;
+    }
+    .belt-group {
+        flex-direction: column;
+         align-items: center;
+         text-align: center;
+         padding: 2rem;
+
+      }
+        .b1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;          /* ✅ allow content size */
+  max-width: 100%;
+  }
+
+        .logo2 {
+  display: block !important;
+  visibility: visible !important;
+  /* opacity: 1 !important; */
+  }
+.logo2 {
+  width: 200px;
+  height: 200px;
+  border: 3px solid red;
+  /* background: yellow;
+  object-fit: contain; */
+}
+
+
+}
+
+  
+@media (min-width: 769px) and (max-width: 1023px) {
+
+  .picture_container {
+    height: 400px;
+    padding: 0 1.5rem;
+  }
+
+  .company-name {
+    font-size: 1.3rem;
+  }
+
+  .contact-details p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .project_section {
+    gap: 15px;
+  }
+
+  .project_card {
+    width: 420px;
+  }
+
+  .project_card-img-top {
+    height: 420px;
+  }
+}
+
+.upper2 {
+  position: relative !important;
+  top: 5px;
+  right: 1rem;
+  font-size: 24px;
+  margin: 5px 0;
+  flex: 1;
+}
