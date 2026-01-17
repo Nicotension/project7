@@ -336,6 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function stopSlider() {
     clearInterval(sliderInterval);
   }
+  
 
   /* ---------- Swipe support ---------- */
 
@@ -627,6 +628,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
+
+// #############################scrolling codes##############################
 
 
 /*######################################################################*/

@@ -1,0 +1,1562 @@
+.cardi-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .cardi {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .cardi-img-top {
+  border-radius: 4px;
+  width: 100%;
+  /* height: 300px !important;   SAME height for all images */
+  object-fit: cover;          /* Crop to fill without distortion */
+  /* transform: translate(-55%, -30%) scale(1.02) !important; */
+  }
+
+/* ############################################################################################################### */  
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+     /* html, body {
+  height: 100%;
+   overflow: hidden;
+ } */
+  .logo img {
+    width: 75px; 
+    height: 70px; 
+    display: block; 
+}
+.cardi-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .cardi {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .cardi-img-top {
+  border-radius: 4px;
+  width: 100%;
+  /* height: 300px !important;   SAME height for all images */
+  object-fit: cover;          /* Crop to fill without distortion */
+  /* transform: translate(-55%, -30%) scale(1.02) !important; */
+  }
+
+
+  /* Adjust hero to balance layout */
+  .hero {
+    margin-top: 5rem;
+        width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-left: 5px;
+  }
+      .hero-b {
+    font-size: 100 !important;
+    line-height: 1.15;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+.hero .hero-b img.firmer {
+  width: 400px;
+  height: auto;
+   margin-left: 1rem;
+}
+  .ppage {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-left: 0.5rem;
+  }
+
+  .belt{
+      position: relative;
+  z-index: 5;
+    display: flex;
+    margin-right: 20px;
+      top: -400px;   /* moves it upward */
+  }
+
+  .belt-group {
+   display: flex;
+  flex-direction: row !important;
+  justify-content: flex-start;
+  margin-right: 0.93rem;
+  gap: 2rem; /* space between items */
+  width: 100%;
+  flex-wrap: wrap; /* wraps on small screens */
+   } 
+.b2 h4,
+.b3 h4 {
+  font-size: 1rem;
+
+}
+.b2 {
+  padding-right: 6rem;
+}
+  .b1 .logo2 {
+    max-width: 150px;
+    height: auto;
+    opacity: 0.55;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .z, .i {
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(0, 75, 241, 1);
+    color: white;
+    padding: 2px 5px;
+  }
+  .mainsec {
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+    /* Main footer section layout */
+  footer {
+    position: relative; /* Needed so absolutely positioned children are relative to this */
+    overflow: hidden; /* Prevent lines from spilling out */
+    
+}
+.footer-wrapper {
+  position: relative;   /* parent is reference */
+    max-width: 1850px;
+    margin: 0 auto;
+        z-index: 1; /* to control content layering */
+  }
+
+footer {
+    max-width: 100%;
+    padding: 0 3%;
+  }
+
+  .footer-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+.longleg-container {
+  position: relative;
+  top: -390px;   /* moves footer upward */
+}
+
+  .sec1 {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 0 3%;
+  }
+
+  /* Upper text (right side) */
+  .upper2 {
+    font-size: 1.3rem;
+    right: 3rem;
+    max-width: 420px;
+     max-width: 420px;
+    transform: translatey(65px);/* (right, down) */
+  }
+
+  /* Logo */
+  .leg img {
+    width: 120px;
+    top: 75px;
+    margin-left: 10px;
+  } 
+
+  /* Eagle icon */
+  #eaglet img {
+    position: static;
+    margin-top: 4.5rem;
+    margin-left: -8.5rem;
+    width: 30px;
+    opacity: 0.6;
+  }
+
+  /* LSR block (right-aligned text group) */
+  .lsr {
+    /* margin-right: 190px;
+    margin-top:  550px; */
+    max-width: 420px;
+    transform: translate(-115px, 65px);/* (right, down) */
+  }
+
+  .lsr h6,
+  .lsr p,
+  .lsr1 p,
+  .lsr2 p {
+    font-size: 0.95rem;
+    line-height: 1.3;
+  }
+
+  /* Lower footer section */
+  .lower {
+    padding: 20px 5% 0;
+    gap: 3rem;
+  }
+
+  /* Company / policy links */
+  .company-section {
+    max-width: 900px;
+  }
+
+  .policy-link {
+    font-size: 0.9rem;
+  }
+
+  /* Logo grid */
+  .logo-grid {
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 130px 130px;
+    gap: 8px;
+  }
+
+  .logo-block {
+    font-size: 200px;
+  }
+
+  .eagle img {
+    width: 70px;
+  }
+}
+
+
+
+/* ##########################################################  1  ############################################################ */
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+ 
+    /* Hide hamburger on tablets */
+  .hamburger {
+    display: none !important;
+  }
+.header-container {
+  display: flex;
+  justify-content: space-between; /* pushes logo left & nav right */
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+   /* overflow: visible; */
+}
+  /* Nav container */
+  .nav {
+     position: relative;
+    display: flex !important;
+    justify-content: flex-end !important;
+        padding-left: 0; 
+    margin-top: 0.2rem;
+      flex: 1;
+  }
+
+  /* Force menu visible even if JS toggles classes */
+  .nav-list {
+    display: flex !important;
+    list-style: none;                                                                
+    margin-top: 0.2rem;
+    padding-right: 1%;
+    gap: 8px;
+  }
+
+.nav-list.active{
+  display: block;
+
+}
+  .nav-item {
+    margin-bottom: 0;
+  }
+
+  .nav-item a {
+    display: inline-block; 
+    text-decoration: none;
+    color: rgba(0, 75, 241, 1); 
+    font-family: 'Inter', sans-serif;
+     font-size: 15px !important;
+    font-weight: 500;
+    line-height:  1;
+    letter-spacing: 0%;
+    text-align: center; 
+    padding: 2px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+.project-link,
+.firm-link,
+.contact-link {
+  min-width: auto;
+}
+
+.nav-list a:hover{
+    background-size: 100% 100%; /* Ensure full coverage */
+    background-color: rgba(0, 75, 241, 1); 
+    color: whitesmoke;
+}
+
+  .logo {
+    margin-top: 0.2rem;
+    margin-left: auto;
+}
+.logo img {
+   width: 55px !important;   /* Resize */
+   height: 50px;
+    margin-top: 2px !important; 
+}
+ 
+.hero {
+    margin-top: 8rem;
+        width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-left: 5px;
+  }
+      .hero-b {
+    font-size: 100 !important;
+    line-height: 1.15;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+.hero .hero-b img.firmer {
+  width: 300px;
+  height: auto;
+   margin-left: 1rem;
+}
+  .ppage {
+    font-size: 1.3rem;
+    line-height: 1;
+    margin-left: 0.5rem;
+  }
+.cardi-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .cardi {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .cardi-img-top {
+  border-radius: 4px;
+  width: 100%;
+  /* height: 300px !important;   SAME height for all images */
+  object-fit: cover;          /* Crop to fill without distortion */
+  /* transform: translate(-55%, -30%) scale(1.02) !important; */
+  }
+
+     .logo2 {
+    max-width: 95px;
+    height: auto;
+    opacity: 0.55;
+    border-radius: 50%;
+  }
+  
+  .belt{
+  position: relative;
+  z-index: 5;
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .belt-group {
+   display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+  align-items: center;
+  gap: 0.5rem; /* space between items */
+  width: 100%;
+  flex-wrap: wrap; /* wraps on small screens */
+   } 
+
+.b2 h4,
+.b3 h4 {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+.beltwrite{
+  font-size: 0.8rem;
+}
+  .z, .i {
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(0, 75, 241, 1);
+    color: white;
+  }
+
+.belt {
+transform: translateY(-420px);
+}
+
+  /* Target all footer elements specifically */
+  footer {
+    max-width: 100%;
+    padding: 0 3%;
+  }
+
+  .footer-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .longleg-container {
+    /* Add responsive adjustments here */
+    padding: 0.5rem 0;
+  }
+.mainsec {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap */
+  }
+  /* Main content section */
+  .sec1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 0 3%;
+   justify-content: space-between; /* This pushes them apart */
+  }
+
+  /* Logo and eagle wrapper */
+  .leg-eaglet-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex: 0 0 auto; /* Prevent stretching */
+  }
+
+  /* Logo */
+  .leg img {
+    width: 80px;
+    height: auto;
+    display: block;
+  }
+.leg{
+  left: 1rem;
+  width: 75px;
+}
+  /* Eagle icon - better positioning */
+  #eaglet {
+    position: relative;
+    margin-left: 1.7rem;
+  }
+
+  #eaglet img {
+    width: 40px;
+    position: relative; /* Changed from absolute if needed */
+    left: 0; /* Reset if not needed */
+    top: 0; /* Reset if not needed */
+    padding-bottom: 5.5rem; /* Remove excessive padding */
+    margin-top: 1rem; /* Use margin instead */
+  }
+
+  /* Upper text (right side) */
+  .upper2 {
+    position: relative;
+    font-size: 1rem;
+    top: 0; /* Reset */
+     padding-right: 2rem;
+    padding-top: 2rem;
+    max-width: 420px;
+  }
+
+  /* LSR block */
+  .lsr {
+    position: relative;
+    left: 0; /* Reset absolute positioning */
+    padding-right: 2rem;
+    margin-top: 2rem;
+    max-width: 420px;
+    
+  }
+  .sec1::after {
+    content: '';
+    flex: 1;
+    min-width: 5rem; /* Minimum gap */
+  }
+  /* Text styles */
+  .lsr h6,
+  .lsr p,
+  .lsr1 p,
+  .lsr2 p,
+  .label {
+    font-size: 0.95rem;
+    line-height: 1.3;
+  }
+
+  /* Links */
+  #nav, #sp {
+    font-size: 0.9rem;
+  }
+
+  /* Container sections */
+  .container,
+  .lower {
+    /* padding: 20px 3% 0; */
+    gap: 2rem;
+  }
+
+  /* Company section */
+  .company-section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .company-section h1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .policy-link {
+    font-size: 0.9rem;
+    padding: 3px 0;
+  }
+
+  /* Logo grid */
+  .logo-grid {
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 130px 130px;
+    gap: 8px;
+    margin: 0 auto; /* Center if needed */
+  }
+
+  .logo-block {
+    font-size: 180px; /* Slightly smaller for tablet */
+    font-weight: 350;
+  }
+
+  .eagle img {
+    width: 50px; /* Adjust for tablet */
+  }
+
+  /* Links container */
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Footer lines */
+  .footer-lines-container {
+    /* Adjust line positioning if needed */
+    top: 10%;
+    height: 80%;
+  }
+
+  /* Content display */
+  .content-display {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px){
+    /* Hide hamburger on tablets */
+  .hamburger {
+    display: none !important;
+  }
+.header-container {
+  display: flex;
+  justify-content: space-between; /* pushes logo left & nav right */
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+   /* overflow: visible; */
+}
+  /* Nav container */
+  .nav {
+     position: relative;
+    display: flex !important;
+    justify-content: flex-end !important;
+        padding-left: 0; 
+    margin-top: 0.2rem;
+      flex: 1;
+  }
+
+  /* Force menu visible even if JS toggles classes */
+  .nav-list {
+    display: flex !important;
+    list-style: none;                                                                
+    margin-top: 0.2rem;
+    padding-right: 1%;
+    gap: 8px;
+  }
+
+.nav-list.active{
+  display: block;
+
+}
+  .nav-item {
+    margin-bottom: 0;
+  }
+
+  .nav-item a {
+    display: inline-block; 
+    text-decoration: none;
+    color: rgba(0, 75, 241, 1); 
+    font-family: 'Inter', sans-serif;
+     font-size: 15px !important;
+    font-weight: 500;
+    line-height:  1;
+    letter-spacing: 0%;
+    text-align: center; 
+    padding: 2px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+.project-link,
+.firm-link,
+.contact-link {
+  min-width: auto;
+}
+
+.nav-list a:hover{
+    background-size: 100% 100%; /* Ensure full coverage */
+    background-color: rgba(0, 75, 241, 1); 
+    color: whitesmoke;
+}
+
+  .logo {
+    margin-top: 0.2rem;
+    margin-left: auto;
+}
+.logo img {
+   width: 55px !important;   /* Resize */
+   height: 50px;
+    margin-top: 2px !important; 
+}
+/* TARGET ONLY DROPDOWN LISTS - More specific selectors################ */
+  .nav-item.project-link > .dropdown-menu {
+    display: none; /* Hide by default */
+    position: absolute; /* Change from fixed/absolute to static */
+    top: auto;
+    right: auto;
+    left: auto;
+    background-color: transparent; /* Remove white background */
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    text-align: right;
+    padding: 0;
+    margin: 3px 0 0 0; /* Add some margin above */
+    z-index: 1000;
+    /* width: 100%; Make it full width of parent */
+  }
+  /* Target dropdown links specifically */
+  .nav-item.project-link > .dropdown-menu a {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    text-align: left; /* Changed from right to left */
+    padding: 3px 2px; /* Increased padding */
+    font-size: 0.7rem; /* Increased from 0.7rem */
+    line-height: 1; /* Increased from 5px to proper line height */
+    color: rgba(0, 75, 241, 1);
+    transition: background-color 0.2s ease;
+    width: 100%;
+    white-space: normal; /* Allow text to wrap to next line */
+    overflow: hidden; /* Ensure text is not hidden */
+    font-size: 12px !important;
+  }
+ 
+.hero {
+    margin-top: 8rem;
+        width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-left: 5px;
+  }
+      .hero-b {
+    font-size: 100 !important;
+    line-height: 1.15;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+.hero .hero-b img.firmer {
+  width: 300px;
+  height: auto;
+   margin-left: 1rem;
+}
+  .ppage {
+    font-size: 1.3rem;
+    line-height: 1;
+    margin-left: 0.5rem;
+  }
+
+.cardi-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .cardi {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .cardi-img-top {
+  border-radius: 4px;
+  width: 100%;
+  /* height: 300px !important;   SAME height for all images */
+  object-fit: cover;          /* Crop to fill without distortion */
+  /* transform: translate(-55%, -30%) scale(1.02) !important; */
+  }
+
+     .logo2 {
+    max-width: 95px;
+    height: auto;
+    opacity: 0.55;
+    border-radius: 50%;
+  }
+  
+  .belt{
+  position: relative;
+  z-index: 5;
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .belt-group {
+   display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+  align-items: center;
+  gap: 0.5rem; /* space between items */
+  width: 100%;
+  flex-wrap: wrap; /* wraps on small screens */
+   } 
+
+.b2 h4,
+.b3 h4 {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+.beltwrite{
+  font-size: 0.8rem;
+}
+  .z, .i {
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(0, 75, 241, 1);
+    color: white;
+  }
+
+.belt {
+  position: relative;
+  top: -350px; /* Exactly how far up you want it */
+  transition: top 0.3s ease;
+}
+
+.belt.visible {
+  top: 0;
+}
+  /* Target all footer elements specifically */
+  footer {
+    max-width: 100%;
+    padding: 0 3%;
+  }
+
+  .footer-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .longleg-container {
+    /* Add responsive adjustments here */
+    margin-top: 0;
+    padding: 1rem 0;
+  }
+.mainsec {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap */
+  }
+  /* Main content section */
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;     /* 🔴 PREVENTS wrapping */
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1%;
+  gap: 0.5rem;
+}
+
+
+  .leg-eaglet-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 0 0 auto;   /* keep natural width */
+}
+  /* Logo */
+  .leg img {
+    width: 60px;
+    height: auto;
+    display: block;
+  }
+.leg{
+  left: 1rem;
+  width: 75px;
+}
+  /* Eagle icon - better positioning */
+  #eaglet {
+    position: relative;
+    margin-left: 1.7rem;
+  }
+
+  #eaglet img {
+    width: 40px;
+    position: relative; /* Changed from absolute if needed */
+    left: 0; /* Reset if not needed */
+    top: 0; /* Reset if not needed */
+    padding-bottom: 5.5rem; /* Remove excessive padding */
+    margin-top: 1rem; /* Use margin instead */
+  }
+
+  /* Upper text (right side) */
+  .upper2 {
+  flex: 0 0 auto;       /* keep content size only */
+  position: relative;
+  top: 0;
+  right: 0;
+  text-align: left;   /* align text neatly to the right */
+   font-size: 0.8rem;
+   line-height: 0.1;
+  }
+
+  /* LSR block */
+.lsr {
+  flex: 1;          /* allow it to shrink if needed */
+  max-width: 50%;   /* 🔴 prevents it from pushing .upper2 down */
+  margin-left: 20px !important;
+  padding: 0;
+  left: 0;
+  position: relative;
+  padding-left: 25px;
+}
+ .longleg-container .policy-link {
+  font-size: 0.7rem;
+  line-height: 1;
+  }
+  .sec1::after {
+    content: '';
+    flex: 1;
+    min-width: 5rem; /* Minimum gap */
+  }
+
+  /* Text styles */
+.lsr h6, .lsr p, .lsr1 p, .lsr2 p {
+    font-size: 1.4rem; /* Smaller text */
+    line-height: 3.5rem; /* Tighter spacing */
+}
+
+#sp{
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 350;
+    color: rgba(0, 75, 241, 1); 
+    line-height: 130%;
+    /* padding-left: -2%; */
+}
+
+  /* Links */
+  #sp p{
+    font-size: 12px;
+  }
+
+  /* Container sections */
+  .container,
+  .lower {
+    /* padding: 20px 3% 0; */
+    gap: 2rem;
+  }
+
+  /* Company section */
+  .company-section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .company-section h1 {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .policy-link {
+    font-size: 0.9rem;
+    padding: 3px 0;
+  }
+
+  /* Logo grid */
+  .logo-grid {
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 130px 130px;
+    gap: 8px;
+    margin: 0 auto; /* Center if needed */
+  }
+
+  .logo-block {
+    font-size: 180px; /* Slightly smaller for tablet */
+    font-weight: 350;
+  }
+
+  .eagle img {
+    width: 50px; /* Adjust for tablet */
+  }
+
+  /* Links container */
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  /* Footer lines */
+  .footer-lines-container {
+    /* Adjust line positioning if needed */
+    top: 10%;
+    height: 80%;
+  }
+
+  /* Content display */
+  .content-display {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 90%;
+  }
+}
+/* ############################################################################################################### */
+@media screen and (max-width: 768px) {
+  .sec1 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .longleg-container {
+    margin: 2rem 1rem;
+  }
+
+  .leg-eaglet-wrapper {
+
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.leg img {
+  margin-left: 10.5rem;
+  width: 90px;
+  }
+    .logo-grid {
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 80px 80px;
+  }
+
+  .logo-block {
+    font-size: 40px;
+  }
+
+  #eaglet img {
+    position: static;
+    margin-top: 3.5rem;
+    margin-left: -2rem;
+    width: 30px;
+    opacity: 0.6;
+  }
+
+.lsr{
+   padding: 0.5rem 2rem; /* Adjust for larger screens */
+   text-align: center;
+}
+footer #sp {
+  font-size: 13px;
+}
+  footer .lsr {
+  font-size: 12px !important;
+  line-height: 1.3 !important;
+ }
+footer .lsr h6,
+footer .lsr p {
+  font-size: 13px;
+  margin: 2px 0;
+}
+ footer #nav {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+}
+
+
+
+
+
+/* Stack images vertically on mobile */
+@media (min-width: 768px) {
+    .picture_container {
+        flex-direction: column;
+        height: auto;
+        padding: 0 1rem; /* Smaller margins on mobile */
+    }
+    
+    .picture_container img {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 1rem;
+    }
+
+        .contact-info .h6{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 1rem;
+    }
+
+        .company-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3; /* Reduced from default ~1.5 */
+    display: inline-block; /* Needed for transform to work */
+    }
+
+        .contact-details {
+    font-family: 'Inter', sans-serif;
+    font-size: 5px;
+    font-weight: 400;
+    color: rgba(0, 75, 241, 1);                 
+    line-height: 0.5; /* Tighter line spacing */
+    } 
+
+    .contact-details p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: rgba(0, 75, 241, 1);                 
+    margin: 1rem 0; /* Tight vertical spacing */
+    line-height: 0.3; /* Tighter line spacing */
+    padding: 0; /* Remove any default padding */
+  }
+}
+
+
+
+
+
+/* ######################################################################################## */
+
+.k_section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 900px;     /* 👈 key */
+  margin: 0 auto;       /* center on large screens */
+}
+
+.picture_container {
+  display: flex;
+  gap: 0.4rem;
+  height: 350px;        /* 👈 smaller */
+  flex-shrink: 1;          
+}
+
+.picture_container img {
+    width: 80px;
+    flex: 1;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.contact-content {
+   font-family: 'Inter', sans-serif;
+      max-width: 380px;
+  margin-left: -2.5rem;;
+    margin-top: 2rem;
+    width: auto;
+    color: rgba(0, 75, 241, 1);
+}
+
+.company-name {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1rem, 2.5vw, 1.75rem);
+    font-weight: 400;
+    line-height: 1.2; /* Reduced from default ~1.5 */
+    display: inline-block; /* Needed for transform to work */
+}
+
+.contact-details {
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    text-align: left;
+    color: rgba(0, 75, 241, 1);
+}
+
+.contact-details p {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.85rem, 2.5vw, 1.5rem);
+    color: rgba(0, 75, 241, 1);                 
+     margin: 0.25rem 0; /* Tight vertical spacing */
+    line-height: 1.1; /* Tighter line spacing */
+    padding: 0; /* Remove any default padding */
+}
+
+.contact-info, .h6{
+  font-family: 'Inter', sans-serif;
+}
+.email-link {
+  color: rgba(0, 75, 241, 1);
+  text-decoration: none;
+  transition: color 0.2s, text-decoration 0.2s;
+}
+
+.email-link:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+/* Stack images vertically on mobile */
+@media (min-width: 768px) {
+    .picture_container {
+        flex-direction: column;
+        height: auto;
+        padding: 0 1rem; /* Smaller margins on mobile */
+    }
+    
+    .picture_container img {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 1rem;
+    }
+
+        .contact-info .h6{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 1rem;
+    }
+
+        .company-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3; /* Reduced from default ~1.5 */
+    display: inline-block; /* Needed for transform to work */
+    }
+
+        .contact-details {
+    font-family: 'Inter', sans-serif;
+    font-size: 5px;
+    font-weight: 400;
+    color: rgba(0, 75, 241, 1);                 
+    line-height: 0.5; /* Tighter line spacing */
+    } 
+
+    .contact-details p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: rgba(0, 75, 241, 1);                 
+    margin: 1rem 0; /* Tight vertical spacing */
+    line-height: 0.3; /* Tighter line spacing */
+    padding: 0; /* Remove any default padding */
+  }
+}
+
+ @media (min-width: 481px) and (max-width: 1200px) {
+    /* FORCE vertical layout */
+  .k_section {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    margin-top: 4.5rem;
+    margin-bottom: -75rem;
+    padding-left: 6.5rem;
+  }
+
+   .picture_container {
+    display: flex !important;
+    flex-direction: row !important;
+    /* align-items: center; */
+    width: 100%;
+    height: auto;
+    
+  } 
+
+  /* Individual images */
+  .picture_container img {
+    width: 90%;
+    max-width: 420px;
+    height: auto;
+    display: block;
+  }
+
+  /* FORCE text under images */
+  .contact-content {
+    width: 100%;
+    text-align: center;
+    padding-left: 20rem;
+  }
+  .contact-content, .company-info{
+    text-align: center;
+     margin-top: 2rem;
+  }
+.contact-content, .contact-info, .company-name{
+  margin-top: 4rem;
+   
+}
+    .company-name {
+      font-size: large;
+      font-weight: 500;
+    margin-bottom: 0.2rem;   /* ⬅ adjust this value */
+    line-height: 1.2;
+    margin-top: -4.5rem;
+  }
+
+   .contact-details {
+    text-align: center;
+    margin-top: 0.1rem;
+    padding-bottom: 4rem;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    text-align: center;
+    color: rgba(0, 75, 241, 1);
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+.contact-details p {
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 75, 241, 1);                
+}
+
+/* .longleg-container{ 
+  padding-top: 2px; 
+  } */
+
+.contact-info, .h6{
+  font-family: 'Inter', sans-serif;
+}
+.email-link {
+  color: rgba(0, 75, 241, 1);
+  text-decoration: none;
+  transition: color 0.2s, text-decoration 0.2s;
+}
+
+}
+
+/* ################################################################################################################## */
+@media screen and (max-width: 480px) {
+  .logo {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+     } 
+ .logo img {
+    width: 60px; 
+    height: 55px; 
+    display: block; 
+}
+  /* Show hamburger */
+  .hamburger {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  /* Keep nav container visible */
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Hide the menu list */
+  .nav-list {
+    display: none !important;
+  }
+
+  /* Optional: when JS toggles menu open */
+  .nav-list.active {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .nav-item.project-link {
+    position: relative;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    font-size: smaller;
+  }
+   .hero-b .firmer {
+    margin-left: 5px;
+    font-weight: bolder;
+    font-size: 2.9rem;
+    width: 700px;
+  }
+  .ppage {
+    padding-left: 8px;
+    font-weight: 50;
+    font-family: 'Inter', sans-serif;
+  color: rgba(0, 75, 241, 1); 
+  font-size: 2.1rem;
+  margin-left: 3px
+  }
+
+  .cardi-container {
+   position: absolute;
+    width: 65%; /* Adjusted width for laptops */
+    max-width: 700px;
+    height: 400px; /* Reduced height for laptops */
+    overflow: visible;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    transform: translateY(-30%);
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .cardi {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin: 0 auto;
+  }
+  
+  .cardi.active {
+    transform: none;
+  }
+
+.cardi-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+  .belt-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .beltwrite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+/* Target all footer elements specifically */
+  footer {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .longleg-container {
+    /* Add responsive adjustments here */
+    margin-top: 0;
+    padding: 1rem 0;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.mainsec {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap */
+  }
+  /* Main content section */
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;     /* 🔴 PREVENTS wrapping */
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1%;
+  gap: 0.5rem;
+}
+
+
+  .leg-eaglet-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 0 0 auto;   /* keep natural width */
+}
+  /* Logo */
+  .leg img {
+    width: 60px;
+    height: auto;
+    display: block;
+  }
+.leg{
+  left: 0;
+  right: 0;
+  width: 75px;
+}
+  /* Eagle icon - better positioning */
+  #eaglet {
+    position: relative;
+    margin-left: 9.5rem;
+  }
+
+  #eaglet img {
+    width: 40px;
+    position: relative; /* Changed from absolute if needed */
+    left: 0; /* Reset if not needed */
+    top: 0; /* Reset if not needed */
+    padding-bottom: 2rem; /* Remove excessive padding */
+    margin-top: 1rem; /* Use margin instead */
+  }
+
+  /* Upper text (right side) */
+  .upper2 {
+  flex: 1;          /* allow it to shrink if needed */
+  position: relative;
+  top: 0;
+  right: 0;
+  text-align: left;   /* align text neatly to the right */
+   font-size: 0.8rem;
+   line-height: 0.1;
+  }
+
+  /* LSR block */
+.lsr {
+  flex: 1;          /* allow it to shrink if needed */
+  position: relative;
+  top: 0;
+  right: 0;
+  text-align: left;   /* align text neatly to the right */
+   font-size: 0.8rem;
+   line-height: 0.1;
+}
+ .longleg-container .policy-link {
+  font-size: 0.7rem;
+  line-height: 1;
+  }
+  .sec1::after {
+    content: '';
+    flex: 1;
+    min-width: 5rem; /* Minimum gap */
+  }
+
+  /* Text styles */
+.lsr h6, .lsr p, .lsr1 p, .lsr2 p {
+    font-size: 1.4rem; /* Smaller text */
+    line-height: 3.5rem; /* Tighter spacing */
+}
+
+#sp{
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 350;
+    color: rgba(0, 75, 241, 1); 
+    line-height: 130%;
+    /* padding-left: -2%; */
+}
+
+  /* Links */
+  #sp p{
+    font-size: 12px;
+  }
+
+  /* Container sections */
+  .container,
+  .lower {
+    /* padding: 20px 3% 0; */
+    gap: 2rem;
+  }
+
+  /* Company section */
+  .company-section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .company-section h1 {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .policy-link {
+    font-size: 0.9rem;
+    padding: 3px 0;
+  }
+
+  /* Logo grid */
+  .logo-grid {
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 130px 130px;
+    gap: 8px;
+    margin: 0 auto; /* Center if needed */
+  }
+
+  .logo-block {
+    font-size: 180px; /* Slightly smaller for tablet */
+    font-weight: 350;
+  }
+
+  /* Links container */
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  /* Footer lines */
+  .footer-lines-container {
+    /* Adjust line positioning if needed */
+    top: 10%;
+    height: 80%;
+  }
+
+  /* Content display */
+  .content-display {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 90%;
+  }
+}
+
+
+
+
+
