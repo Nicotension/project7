@@ -2880,6 +2880,74 @@ flex-direction: row;
             color: #777;
             font-size: 14px;
         }
+        @media (max-width: 480px) {
+
+  .eklarung {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+
+  .pr-contact {
+    margin-left: 0 !important;
+  }
+
+  #cook,
+  #pdk {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  /* Main Container */
+  .privacy-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 20px;
+    padding-bottom: 1rem;
+  }
+
+  /* Header */
+  .privacy-header h1 {
+    font-size: 22px;
+  }
+
+  .privacy-intro {
+    font-size: 14px;
+  }
+
+  /* Section titles */
+  .section-title {
+    font-size: 18px;
+    flex-wrap: wrap;
+  }
+
+  .section-title::before {
+    font-size: 18px;
+  }
+
+  /* Content boxes */
+  .contact-box,
+  .rights-box,
+  .authority-box,
+  .no-cookies,
+  .no-tracking,
+  .update-notice {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  /* Lists */
+  .server-log-list li {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  /* Footer */
+  .privacy-footer {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+}
+
 /*############# bd_23_container ##############*/
 .bd_23_container {
   display: grid;
