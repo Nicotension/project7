@@ -3737,8 +3737,8 @@ flex-direction: row;
   .logo img {
     width: 3rem;
     height: auto;
-    margin: 1rem;
-    margin-top: 1rem;
+    margin: 0.3rem;
+    margin-top: 1.3rem;
   }
   
   .nav {
@@ -3797,7 +3797,7 @@ flex-direction: row;
     justify-content: space-between;
     width: 25px;
     height: 20px;
-    margin: 1.89rem;
+    margin: 1.3rem;
     background: none;
     border: none;
     cursor: pointer;
@@ -3856,7 +3856,7 @@ flex-direction: row;
   max-width: 100%;
   height: auto;
   position: absolute;
-  left: 1.87rem;
+  left: 1.2rem;
   top: 0.5%;
   transform: translateY(-45%);
   z-index: 10;
@@ -3868,7 +3868,7 @@ flex-direction: row;
     line-height: 1.2;
     font-size: 0.65rem !important;
     position: absolute;
-    left: 1.4rem;
+    left: 0.61rem;
     top: calc(1% + 30px);
      /* transform: translateY(-10%); */
     text-align: left;
@@ -3881,7 +3881,7 @@ flex-direction: row;
   /* Position lsr on RIGHT side */
   .lsr {
     position: absolute;
-    right: 1.5rem;
+    right: 1rem;
     top: 10%;
     transform: translateY(-95%);
     text-align: right;
