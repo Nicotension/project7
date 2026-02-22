@@ -2038,8 +2038,7 @@ margin-top: 5rem;
 
 
 /* ########################################################################## */
-@media (min-width: 1443px) {
-
+@media (min-width: 1443px) and (max-width: 1620px) {
   .image_workers_container {
         flex: 1 1 auto;
     display: flex;
@@ -2080,10 +2079,51 @@ height: auto;
   transform: translateY(0.1rem);
   padding-left: 1.5rem;
 }
-
-
 }
-
+/* ######################################################################### */
+@media (min-width: 1621px) {
+    .image_workers_container {
+        flex: 1 1 auto;
+    display: flex;
+    padding: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  }
+  
+.firmen-profil-container{
+  font-size: 1.2rem;
+  display: block;
+  inline-size: 40rem;
+  min-width: 100px;
+  color: rgba(0, 75, 241, 1);
+  padding-right: 2.5rem;
+  margin-left: -2.5rem;
+}
+.profil_writup {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: rgba(0, 75, 241, 1);                
+    line-height: 1.5; /* Tighter line spacing */
+    display: block
+}
+.image_workers_container img {
+display: block;
+margin: 1rem auto 0;
+margin-left: 2.22rem; /* pushes image right */
+margin-top: 1rem; 
+box-shadow: 0 8px 20px rgba(0, 75, 241, 0.25);
+max-width: 100%;
+height: auto;
+}
+.spacer{
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  display: inline-block;
+  line-height: 1.5; /* Tighter line spacing */
+  transform: translateY(0.1rem);
+  padding-left: 1.5rem;
+}
+}
 
 /* ###############[ .KONTAKT_PAGE ]######################## */
 
@@ -5270,7 +5310,7 @@ img {
  
 }
 /* ##################################################################### */
-@media (min-width: 1443px) {
+@media (min-width: 1443px) and (max-width: 1620px) {
 
   html {
   box-sizing: border-box;
@@ -5515,6 +5555,299 @@ width: clamp(185px, 25vw, 400px);
 }
 .b2{
   --shift: clamp(5rem, 6.4vw, 10rem);
+
+  transform: translateX(calc(-1 * var(--shift)));
+  margin-left: calc(var(--shift) + 1rem);
+}
+
+
+  .z, .i {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    background-color: rgba(0, 75, 241, 1);
+    color: white;
+    padding: 0.2rem;
+  }
+  .beltwrite{
+    font-size: 1rem;
+  }
+/* Individual grid items shifted more */
+.leg-eaglet-wrapper,
+.lsr,
+.company-section {
+  position: relative;
+}
+
+#sp{
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 75, 241, 1); 
+    line-height: 130%;
+}
+.lsr {
+          font-family: var(--font-inter);
+  padding-top: clamp(0.2rem, 1vw, 0.8rem);
+  max-width: 100%;
+  width: 100%;
+  margin-left: 1rem;
+}
+.lsr p{
+  font-size: 1rem;
+    font-weight: 450;
+    line-height: 1rem;
+      color: rgba(0, 75, 241, 1); 
+ }
+
+}
+
+
+/* ##################################################################### */
+@media (min-width: 1621px) {
+
+  html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+  body {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .logo img {
+  height: 6.5rem;
+  display: block;
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+}
+.nav-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+  .nav-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0, 75, 241, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 22px; 
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding: 5px 5px; /* Increased padding */
+    margin-right: 3.5rem;
+    transition: all 0.3s ease;
+  }
+
+  .nav-item a:hover {
+    background-color:  rgba(0, 75, 241, 0.9);
+    color: whitesmoke;
+    transform: translateY(-2px);
+  }
+    .nav-item.project-link > .dropdown-menu a {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    text-align: left; /* Changed from right to left */
+    padding: 4px 3px; /* Increased padding */
+    font-size: 1.1rem; /* Increased from 0.7rem */
+    line-height: 1.2; /* Increased from 5px to proper line height */
+    color: rgba(0, 75, 241, 1);
+    transition: background-color 0.2s ease;
+    width: 100%;
+    white-space: normal; /* Allow text to wrap to next line */
+    overflow: hidden; /* Ensure text is not hidden */
+  }
+
+ /* Adjust hero to balance layout */
+.hero {
+    position: relative;
+    display: flex;               
+    flex-direction: row;           
+    align-items: flex-start;           
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 0.1rem;  
+    z-index: 1; /* Controls stacking if overlapping occurs */ 
+    margin-top: 2rem;  
+}
+
+      .hero-b {
+  flex: 1 1 auto; 
+  max-width: 55vw;
+  margin-left: 0.3rem;
+  }
+
+.hero .hero-b img.firmer {
+width: clamp(195px, 35vw, 550px);
+  height: auto;
+   margin-left: 2.95rem;
+}
+     .logo2 {
+    max-width: 10rem;
+    height: auto;
+    opacity: 0.55;
+    border-radius: 50%;
+    margin-left: 2.85rem;
+  }
+  .ppage {
+    font-weight: 400;
+    font-size: clamp(2rem, 2.5vw, 1.75rem);
+     margin-left: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  /* Card/Slider Container - Enhanced */
+  .cardi-container {
+    position: relative;
+    /* width: 100%; */
+    max-width: 950px; /* Increased for large screens */
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 1;
+    flex: 1;
+    min-height: 600px; /* Minimum height for consistency */
+  }
+
+  .cardi {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+    transform: translate(-60%, -65%);
+    width: clamp(400px, 60vw, 950px);
+    height: auto;
+    max-width: 1750px;
+    aspect-ratio: 13/8;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 20px 60px rgba(0, 75, 241, 0.15); /* Enhanced shadow */
+       margin-right: 3rem;
+  }
+
+  /* ACTIVE SLIDE */
+  .cardi.active {
+    opacity: 1;
+    z-index: 2;
+    transform: translate(-60%, -65%) scale(1);
+    box-shadow: 0 25px 80px rgba(0, 75, 241, 0.25); /* Enhanced shadow for active */
+  }
+
+  /* IMAGE */
+  .cardi-img-top {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: cover; /* Changed to cover for better large screen display */
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  /* Grid Layout for Large Screens */
+  .grid-large {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* gap: 3rem;
+    margin: 4rem 0; */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Image Optimization */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.upper2 {
+  position: relative;
+  font-family: var(--font-inter);
+  font-weight: 300;
+  font-size: clamp(16px, 1.8vw, 22px);
+  line-height: 1;
+  color: rgba(0, 75, 241, 1);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+#nav{
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 75, 241, 1);
+}
+.label{
+  font-weight: 450;
+  font-size: 1rem;
+}
+.links-container * {
+  display: grid;
+  grid-template-columns: auto;
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+.policy-link{
+        font-family: var(--font-inter);
+    font-size: 1rem;
+      font-weight: 450;
+  line-height: 1.2rem;
+  padding-bottom: 0.5rem;
+  color: rgba(0, 75, 241, 1);
+}
+.policy-link:hover {
+  text-decoration: underline;
+}
+/* .sec1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--section-gap);
+  align-items: start;
+} */
+.company-section {
+  font-family: var(--font-inter);
+  max-width: 100%;
+  width: 100%;
+    /* font-size: 1.3rem; */
+    line-height: 1.7;
+      color: rgba(0, 75, 241, 1);
+      margin-left: 3rem;
+      padding-bottom: 2rem;
+}
+
+.belt-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;   /* 👈 IMPORTANT */
+  margin-top: 2rem;
+}
+
+.b2, .b3 {
+  flex: 0 1 260px;
+  max-width: 395px;
+  margin-right:  clamp(1.5rem, 3vw, 5rem);
+}
+.b2{
+  --shift: clamp(7rem, 7.4vw, 10rem);
 
   transform: translateX(calc(-1 * var(--shift)));
   margin-left: calc(var(--shift) + 1rem);
