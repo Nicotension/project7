@@ -2423,8 +2423,7 @@ flex-direction: row;
 
 }
 
-@media (min-width: 1443px) {
-  
+@media (min-width: 1443px) and (max-width: 1620px) {
   .k_section {
     display: flex;
     flex-direction: row; /* Changed from column to row */
@@ -2508,7 +2507,89 @@ flex-direction: row;
 
 }
 
+@media (min-width: 1620px){
+    .k_section {
+    display: flex;
+    flex-direction: row; /* Changed from column to row */
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns both items to top */
+    gap: 2px;
+    max-width: 2900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 3.5rem;
+    margin-bottom: 2rem;
+    height: auto; /* Remove fixed height if any */
+  }
+.picture_container {
+  height: 650px; 
+  width: auto;         /* ⬅ biggest visual impact */
+  max-width: 2000px;
+  margin-left: 2.1rem;
+}
 
+  /* Image strip – larger visuals */
+.picture_container img {
+  flex: 1 1 400px;
+  min-width: 350px;      /* control size safely */
+  width: 700px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 75, 241, 0.25);
+  transition: flex 0.4s ease, transform 0.4s ease;
+}
+.picture_container img:hover {
+  flex: 2;               /* expands */
+  transform: translateY(-10px);
+}
+.contact-content {
+   font-family: 'Inter', sans-serif;
+   font-size: large;
+   font-weight: 400;
+    max-width: 80ch;
+    margin-top: 0; /* Changed from 2rem - moves it upward */
+    margin-bottom: auto; /* Pushes content to the top */
+    width: auto;
+    color: rgba(0, 75, 241, 1);
+    padding-right: 4.5rem;
+    padding-top: 0; /* Ensure no top padding */
+    margin-left: -0.5rem; 
+    flex: 1;
+    align-self: flex-start;
+    text-align: left; 
+}
+.contact-info{
+    position: relative;
+    left: auto; 
+    align-self: flex-start; 
+    margin-top: 1rem; 
+}
+.company-name{
+   font-family: 'Inter', sans-serif;
+     line-height: 1.5;
+   font-size: 1.4rem;
+   font-weight: 500;
+        color: rgba(0, 75, 241, 1) !important;
+        margin-top: 0.3rem;   
+}
+.contact-details{
+  display: block;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 350;
+  max-width: 75ch;
+}
+.contact-details p{
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.email-link:hover {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+}
 
 
 /* Responsive adjustments */
