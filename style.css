@@ -1489,6 +1489,45 @@ img {
     transform: scale(1.02);
     box-shadow: 0 8px 25px rgba(0,0,0,0.3);
 }
+/* Your existing image styles */
+.clickable-main-image {
+    width: 100%; /* Ensure full width */
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block; /* Important: makes it a block element */
+}
+
+.clickable-main-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* ------------------------------ */
+/* Arrow indicator on far right */
+/* ------------------------------ */
+.image-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.image-click-arrow {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.5rem;         /* Bigger arrow */
+    font-weight: bold;
+    color: white;
+    background: none;
+    padding: 10px 14px;      /* Slightly larger padding for balance */
+    border-radius: 8px;
+    opacity: 1;
+    pointer-events: none;
+}
+
 
 /* Lightbox - Fullscreen gallery */
 #lightbox {
@@ -1497,7 +1536,7 @@ img {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.95);
+    background: whitesmoke;
     display: none;
     flex-direction: column; /* Change to column */
     justify-content: center;
@@ -1531,7 +1570,7 @@ img {
     right: 30px;
     background: none;
     border: none;
-    color: white;
+    color: red;
     font-size: 40px;
     cursor: pointer;
     z-index: 10000;
@@ -1553,7 +1592,7 @@ img {
     transform: translateY(-50%);
     background: none;
     border: none;
-    color: white;
+    color: blue;
     font-size: 50px;
     cursor: pointer;
     z-index: 10000;
