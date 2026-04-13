@@ -1036,6 +1036,7 @@ body.menu-open {
 
 @media (min-width: 370px) and (max-width: 480px) {
   .project_section {
+    top: 2rem;
     margin: 0;
     padding: 0;
   }
