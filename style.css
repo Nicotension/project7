@@ -1034,20 +1034,16 @@ body.menu-open {
   }
 }
 
-/* Small Devices (phones, 370px - 480px) */
 @media (min-width: 370px) and (max-width: 480px) {
   .project_section {
     margin: 0;
     padding: 0;
-      padding-left: 0 !important;
-  padding-right: 0 !important;
   }
 
   .project_card {
     width: 100%;
-    max-width: 100%;
     margin: 0;
-     border-radius: 0;
+    max-width: 100%;
   }
 
   .project_card-img-top {
@@ -1064,7 +1060,6 @@ body.menu-open {
     font-size: 15px;
   }
 }
-
 /* Medium Devices (tablets, 481px - 754px) */
 @media (min-width: 481px) and (max-width: 754px) {
   .project_section {
