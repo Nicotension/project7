@@ -127,3 +127,24 @@ document.addEventListener("DOMContentLoaded", () => {
   </div>
 </div> */
 /* ##################### */
+// ####################
+/* ##########################
+    <!-- Slide 2 -->
+  {# <div class="cardi">
+    <img src="image/pic2.jpg" class="cardi-img-top" alt="Slide 2">
+  </div> #}
+
+  <!-- Slide 3 -->
+  {# <div class="cardi">
+    <img src="image/pic3.jpg" class="cardi-img-top" alt="Slide 3">
+  </div> #}
+
+  <!-- Slide 4 -->
+   <div class="cardi">
+    <img src="image/pic4.jpg" class="cardi-img-top" alt="Slide 4">
+  </div>
+
+     <div class="cardi">
+    <img src="image/pic7.jpg" class="cardi-img-top" alt="Slide 7">
+  </div>
+  */
